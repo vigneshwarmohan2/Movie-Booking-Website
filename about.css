@@ -1,0 +1,110 @@
+/* creation of about us page */
+* {
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
+nav {
+  background-image: linear-gradient(to right, purple, pink);
+}
+nav b {
+  font-size: larger;
+  margin-left: 20px;
+}
+nav ul {
+  margin-left: 50%;
+  text-decoration: none;
+}
+nav ul li {
+  margin-left: 40px;
+  font-size: large;
+  color: white;
+}
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+a:hover {
+  color: blue !important;
+}
+body {
+  background-image: url(./img/pexels-donald-tong-109669.jpg);
+  /* position: cover; */
+  overflow-x: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.head {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.head h1 {
+  font-weight: bold;
+}
+.sucess {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.sucess img {
+  width: 600px;
+  height: 350px;
+  border-radius: 50px;
+}
+.sucess img:hover {
+  transform: rotate(10deg);
+  transition-duration: 2s;
+}
+.sucess h2 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.work {
+  text-align: end;
+  color: white;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.work img {
+  width: 600px;
+  height: 350px;
+  border-radius: 50px;
+  /* margin-left: 30%; */
+}
+.work img:hover {
+  transform: rotate(-10deg);
+  transition-duration: 2s;
+}
+.work h2 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.satis {
+  color: white;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.satis h2 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.satis img {
+  width: 600px;
+  height: 350px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+.satis img:hover {
+  transform: rotate(10deg);
+  transition-duration: 2s;
+}

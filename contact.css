@@ -1,0 +1,129 @@
+/* creation of contact page */
+* {
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
+nav {
+  background-image: linear-gradient(to right, purple, pink);
+}
+nav b {
+  font-size: larger;
+  margin-left: 20px;
+}
+nav ul {
+  margin-left: 50%;
+  text-decoration: none;
+}
+nav ul li {
+  margin-left: 40px;
+  font-size: large;
+  color: white;
+}
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+a:hover {
+  color: blue !important;
+}
+body {
+  background-image: url(./img/pexels-donald-tong-109669.jpg);
+  /* position: cover; */
+  overflow-x: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.head {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+.head h1 {
+  font-weight: bold;
+}
+.head p {
+  font-size: large;
+  line-height: 30px;
+}
+/* creation of form */
+.titles {
+  margin-top: 40px;
+}
+form {
+  /* margin-top: 60px; */
+  justify-content: center;
+}
+form h2 {
+  color: white;
+  /* text-align: center; */
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+form label {
+  color: blue;
+  font-size: large;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin-left: 20%; */
+}
+form #mail,
+#desc {
+  margin-top: 10px;
+}
+form button {
+  font-size: large;
+  background-color: blue;
+  margin-top: 20px;
+  margin-left: 120px;
+  width: 100px;
+  border-radius: 30px;
+}
+form button:hover {
+  background-color: rgb(8, 8, 211);
+}
+.social {
+  align-items: center;
+  margin-top: 80px;
+  color: white;
+  /* margin-left: 30%; */
+}
+.social img {
+  width: 60px;
+}
+.popup {
+  background-color: rgb(198, 88, 88);
+  position: absolute;
+  border-radius: 20px;
+  top: 0;
+  left: 50%;
+  width: 200px;
+  text-align: center;
+  color: white;
+  transform: translate(-50%, -50%) scale(0.1);
+  visibility: hidden;
+  padding: 20px 0;
+}
+.open-popup {
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+.popup img {
+  width: 50px;
+}
+.popup button {
+  font-size: large;
+  background-color: aqua;
+  color: white;
+  width: 120px;
+  border-radius: 30px;
+}
+.popup button:hover {
+  background-color: rgb(96, 159, 159);
+}

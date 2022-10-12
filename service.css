@@ -1,0 +1,99 @@
+/* creation of service page */
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-image: linear-gradient(to right, purple, pink);
+}
+nav b {
+  font-size: larger;
+  margin-left: 20px;
+}
+nav ul {
+  margin-left: 50%;
+  text-decoration: none;
+}
+nav ul li {
+  margin-left: 40px;
+  font-size: large;
+  color: white;
+}
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+a:hover {
+  color: blue !important;
+}
+body {
+  background-image: url(./img/pexels-donald-tong-109669.jpg);
+  position: cover;
+  overflow-x: hidden;
+}
+.head {
+  color: white;
+}
+form {
+  padding-bottom: 30px;
+  margin-left: 40%;
+}
+form h2 {
+  color: red;
+  font-weight: bold;
+  margin-left: 80px;
+}
+label {
+  color: blue;
+  font-size: large;
+  font-weight: bold;
+}
+.book {
+  align-items: center;
+}
+#screen {
+  margin-top: 20px;
+}
+#time,
+#movie {
+  margin-top: 20px;
+}
+.note {
+  color: white;
+  font-size: large;
+}
+.submit .btn {
+  margin-top: 50px;
+  margin-left: 130px;
+}
+.popup {
+  background-color: rgb(110, 67, 67);
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  visibility: hidden;
+}
+.open-popup {
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+.popup h2 {
+  font-weight: bold;
+}
+.popup button {
+  font-size: larger;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  width: 80px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.popup button:hover {
+  background-color: rgb(8, 8, 210);
+}
